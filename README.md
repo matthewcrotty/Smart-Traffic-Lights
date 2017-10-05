@@ -10,5 +10,10 @@ pip install -r requirements.txt.
 ```
 **Add Package**
 ```
-pip install package && pip freeze > requirements.txt
+pip-save install [<list of packages>]
+pip-save install --upgrade [<list of packages>]
+```
+**Remove Package**
+```
+pip-save uninstall [<list of packages>]
 ```
